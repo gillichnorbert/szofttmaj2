@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>DrinkMasters</title>
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+  <script src="bootstrap/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container mt-4">
+    <div class="row">
+
+      <div>
+        <div id="itemPlace" class="flex-container">
+          <!--ITALKÁRTYÁK-->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="summarycontainer">
+    <img src="img/drinkmasters.png" class="drinkmasterslogo">
+
+
+    <div class="fixed-summary">
+      <div class="totalItems">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th class="tableName">Tétel neve</th>
+              <th class="tablePiece">Db</th>
+              <th class="tablePrice">Ár</th>
+              <th class="tableTrash">Törlés </th>
+            </tr>
+          </thead>
+          <tbody id="summeryBody"></tbody>
+        </table>
+      </div>
+    </div>
+    <div id="totalAmount">
+
+        <p class="totalText" id="total">Ft</p>
+
+    </div>
+    
+      <button id="clearListBtn" class="btn btn-danger">Lista törlse</button>
+    </div>
+  </div>
+
+  <div class="categorycontainer">
+    <div class="categoryButton">
+      <div id="categoryFilter" class="d-flex gap-1 mx-2">
+        <button class="btn btn-primary btn-lg mx-2" id="backButton">Minden Termék</button>
+        <button class="btn btn-secondary btn-lg mx-2">Pohár</button>
+        <button class="btn btn-secondary btn-lg mx-2">Üdítő</button>
+        <button class="btn btn-secondary btn-lg mx-2">Víz</button>
+        <button class="btn btn-secondary btn-lg mx-2">Koktél</button>
+        <button class="btn btn-secondary btn-lg mx-2">Longdrink</button>
+        <button class="btn btn-secondary btn-lg mx-2">Shot</button>
+        <button class="btn btn-secondary btn-lg mx-2">Sör</button>
+        <button class="btn btn-secondary btn-lg mx-2">Energiaital</button>
+        <button class="btn btn-secondary btn-lg mx-2">Fröccs</button>
+        <button class="btn btn-secondary btn-lg mx-2">Pezsgő</button>
+        <button class="btn btn-secondary btn-lg mx-2">Egyéb</button>
+        
+      </div>
+    </div>
+  </div>
+
+  <script src="items.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

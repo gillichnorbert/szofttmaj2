@@ -1,0 +1,394 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+
+
+.container {
+    width: 70%;
+    margin: 0 ; 
+    padding: 0 15px; 
+    bottom: 20%;
+}
+
+
+header {
+    background-color: black;
+    padding: 10px 0;
+    color: yellow;
+}
+
+
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: yellow;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+}
+
+
+
+
+.nav-link {
+    color: #666;
+}
+
+
+
+/* Termék kártyák */
+.flex-container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    width: 70%;
+    max-height: 73.3%;
+    position: fixed;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    min-height: 100px;
+    overflow-x: hidden;
+    
+}
+
+
+.card-item {
+    display: flexbox;
+    min-width: 11rem;
+    max-width: 11rem;
+    min-height: 100px;
+    max-height: 100px;
+    box-sizing: border-box;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flexbox;
+    min-width: 11rem;
+    max-width: 11rem;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.Beer {
+    background-color: lightgreen;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flexbox;
+    min-width: 11rem;
+    max-width: 11rem;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.Energydrink {
+    background-color: blue;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flexbox;
+    min-width: 11rem;
+    max-width: 11rem;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.Water {
+    background-color: aqua;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flexbox;
+    min-width: 11rem;
+    max-width: 11rem;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.Shot {
+    
+        background-color:blueviolet;
+        color: white;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        display: flexbox;
+        min-width: 11rem;
+        max-width: 11rem;
+        min-height: 100px;
+        max-height: 100px;
+}
+
+.Spritz {
+    background-color: rosybrown;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flexbox;
+    min-width: 11rem;
+    max-width: 11rem;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.Champagne {
+    background-color: gold;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flexbox;
+    min-width: 11rem;
+    max-width: 11rem;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.Longdrink {
+    background-color:limegreen;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flexbox;
+    min-width: 11rem;
+    max-width: 11rem;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.Cocktail {
+    background-color: orange;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flexbox;
+    min-width: 11rem;
+    max-width: 11rem;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.Soda {
+    background-color:cadetblue;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flexbox;
+    min-width: 11rem;
+    max-width: 11rem;
+    min-height: 100px;
+    max-height: 100px;
+    color: white;
+}
+
+.Cup {background-color: red;
+border: 1px solid #ccc;
+border-radius: 5px;
+display: flexbox;
+min-width: 11rem;
+max-width: 11rem;
+min-height: 100px;
+max-height: 100px;
+color: white;
+}
+
+.card-title {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.card-subtitle {
+    font-size: 1em;
+    color: #666;
+}
+
+.card-text {
+    font-size: 1em;
+}
+
+
+
+.summarycontainer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    min-width: 30%;
+    padding-top: 1%;
+    height: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    box-sizing: border-box;
+}
+
+.buttonSum {
+    right: 0;
+    bottom: 10px;
+    top: 87.5%;
+    position: fixed;
+    z-index: 999;
+
+}
+
+#search {
+    max-width: 20%;
+    display: block;
+}
+
+.drinkmasterslogo {
+    max-width: 490px;
+    margin-left: 1.5%;
+}
+
+
+.fixed-summary {
+    position: fixed;
+    bottom: 0;
+    right: 1%;
+    min-width: 28%;
+    max-height: 60%;
+    bottom: 25%;
+    height: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    box-sizing: border-box;
+    z-index: 999; 
+    overflow-y: scroll;
+
+
+}
+
+thead {
+    position: sticky;
+    top: 0;
+    background-color: #f0f0f0;
+}
+
+.table th {
+    font-weight: bold;
+    padding: 8px;
+    text-align: left;
+}
+
+.table {
+    padding: 0;
+}
+
+.table th,
+.table td {
+    font-size: 1rem;
+    padding: 8px;
+}
+
+.table th {
+    font-weight: bold;
+}
+
+.totalText {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+
+}
+
+.trashbin {
+    justify-content: center;
+    width: 30px;
+}
+
+.tableTrash {
+    width: 20px;
+}
+
+.tablePrice {
+    width: 20px;
+}
+
+.tablePiece {
+    width: 20px;
+}
+
+#total {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+
+#totalAmount {
+    top: 76%;
+    right: 1%;
+    position: fixed;
+    width: 28%;
+    height: 10%;
+    max-height: 80%;
+    background-color: #fff; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding-left: 5px;
+    box-sizing: border-box;
+    z-index: 999;
+    justify-content: center;
+    text-align: center;
+}
+#clearListBtn {
+    width: 28%;
+    height: 12.5%;
+    position: fixed;
+    bottom: 0.7%;
+    right: 1%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categorycontainer {
+    min-height: 30%;
+    top: 76%;
+    position: fixed;
+    width: 69%;
+    height: 10%;
+    max-height: 80%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+
+    z-index: 999;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+
+}
+
+.categoryFilter {   
+    margin-bottom: 10px;
+    height: 80px;
+    width: 69%;
+}
+
+#backButton {
+    height: 100%;
+    width: 250px;
+}
+
+.btn {
+    height: 100%;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; 
+    margin-right: -1rem;
+    height: 80px;
+}

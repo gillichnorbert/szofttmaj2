@@ -1,0 +1,41 @@
+.buttons {
+    background-color: lightgray;
+    min-height: 50%;
+    min-width: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.buttons {
+    text-align: center;
+    align-content: center;
+}
+
+button {
+    height: 100px;
+}
+
+#password {
+    max-width: 50%;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#passwordBar {
+    max-width: 50%;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: block;
+}
